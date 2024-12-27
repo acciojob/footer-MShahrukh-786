@@ -1,44 +1,28 @@
 /* your code here */
-footer {
-background-color: #333;
-color: #fff;
-padding: 20px;
+footer{
+    background-color: #333;
+    color: white;
+    font-family: cursive;
+    padding: 30px;
 }
 
-.footer-container {
-max-width: 1200px;
-margin: 0 auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+.content{
+    width: 100%;
+    margin:0 auto;
 }
 
-.footer-section {
-flex-basis: 20%;
-margin: 10px;
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.footer-section h2 {
-margin-top: 0;
+.link-boxes{
+    display: flex;
 }
-
-.media-icons {
-display: flex;
-justify-content: space-between;
-}
-
-.media-icons a {
-margin: 10px;
-font-size: 24px;
-color: #fff;
-}
-
-@media only screen and (max-width: 768px) {
-.footer-container {
-flex-direction: column;
-}
-.footer-section {
-flex-basis: 100%;
-margin: 10px 0;
-}
+.media-icons{
+	display:flex;
+	justify-content: space-between;
+	gap:10px;
 }
